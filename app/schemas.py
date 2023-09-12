@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 
+
 class PersonBase(BaseModel):
     """
     Common properties for PersonCreate and Person models.
@@ -13,6 +14,12 @@ class PersonCreate(PersonBase):
     """
 
 
+class PersonUpdate(PersonBase):
+    """
+    Schema for creating a new Person.
+    """
+
+
 class Person(PersonBase):
     """
     Person schema with an 'id' field. (ORM mode enabled)
@@ -20,4 +27,4 @@ class Person(PersonBase):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
