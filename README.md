@@ -6,4 +6,11 @@ This repository contains the source code to illustrate a fundamental understandi
 
 ### Problem Statement
 
-Your objective is to construct a straightforward REST API capable of performing CRUD operations on a `person` resource, while interfacing with a database of your choosing. Your API should have the ability to dynamically handle parameters, allowing for tasks like adding or retrieving a person by their identity. To document your system's design and database structure, incorporate UML diagrams. Additionally, create an automated testing script that validates each of your API's functions. Host your entire project on GitHub and offer a well-organized documentation within the repository. This documentation should include information on request/response formats, setup instructions, and examples of how to use the API.
+- Build a basic REST API for CRUD operations on a **person** resource.
+- Interface the API with a database of your preference.
+- Implement parameter handling for tasks like adding or retrieving a person by their identity.
+- Create UML diagrams to document the system's design and database structure.
+- Develop an automated testing script to validate each API function.
+- Host the entire project on GitHub.
+- Provide well-structured documentation in the repository.
+- Include details on request/response formats, setup instructions, and API usage examples in the documentation.
