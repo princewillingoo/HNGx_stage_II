@@ -64,6 +64,23 @@ Detailed instructions for setting up the project on a local development environm
 6. Navigate to <http://localhost:80/>
 _**Viola !!**_ :smile:
 
+### Using Docker
+
+1. Build Docker Image
+   ```bash
+   docker build -t myimage .
+   ```
+2. Start Docker Container
+   ```bash
+   docker run -d --name mycontainer -p 80:80 myimage
+   ```
+3. Visit Endpoint
+   @ <http://localhost:80/>
+
+### Production Setup
+
+If you would love to setup FastAPI in production. Read the [official documentation](https://fastapi.tiangolo.com/deployment/) 
+
 ## Live Demo
 
 <https://hngx-task-two-zjqf.onrender.com>
