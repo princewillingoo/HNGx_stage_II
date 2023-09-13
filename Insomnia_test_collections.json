@@ -1,0 +1,200 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2023-09-13T03:21:57.763Z",
+    "__export_source": "insomnia.desktop.app:v2022.6.0",
+    "resources": [
+        {
+            "_id": "req_58e766316c1c48da8adbe748a892e866",
+            "parentId": "wrk_737fae1b7a10450e8465327f9916d3e9",
+            "modified": 1694575154723,
+            "created": 1694572756883,
+            "url": "{{ _.URL }}/api",
+            "name": "Create Person",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"Akpan Inyang\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1694572756883,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_737fae1b7a10450e8465327f9916d3e9",
+            "parentId": null,
+            "modified": 1694572699151,
+            "created": 1694572699151,
+            "name": "HNGx_Stage_II",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_71e201322f054d789c180b2fc009634e",
+            "parentId": "wrk_737fae1b7a10450e8465327f9916d3e9",
+            "modified": 1694575021794,
+            "created": 1694572718051,
+            "url": "{{ _.URL }}/api/1",
+            "name": "Get Person",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1694572718051,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_d434fc9a29744cf8af0f22ee425d8300",
+            "parentId": "wrk_737fae1b7a10450e8465327f9916d3e9",
+            "modified": 1694575125165,
+            "created": 1694572789841,
+            "url": "{{ _.URL }}/api/1",
+            "name": "Update Person",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"Pius Peter\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1694572718001,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_6f404be905a143999fdccc76409bc6a9",
+            "parentId": "wrk_737fae1b7a10450e8465327f9916d3e9",
+            "modified": 1694575145478,
+            "created": 1694572925062,
+            "url": "{{ _.URL }}/api/1",
+            "name": "Delete Person",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1694572717951,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_8d0965dc8bef431fb10b91443adf25d8",
+            "parentId": "wrk_737fae1b7a10450e8465327f9916d3e9",
+            "modified": 1694574825284,
+            "created": 1694574775519,
+            "url": "{{ _.URL }}",
+            "name": "Check Check",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1694572717901,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_3c0b4c16957cef9110fbabec7ee0edb3d101461d",
+            "parentId": "wrk_737fae1b7a10450e8465327f9916d3e9",
+            "modified": 1694572875161,
+            "created": 1694572699193,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": {},
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1694572699193,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_3c0b4c16957cef9110fbabec7ee0edb3d101461d",
+            "parentId": "wrk_737fae1b7a10450e8465327f9916d3e9",
+            "modified": 1694572699197,
+            "created": 1694572699197,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_adb35c880ec745c2b2b3551bdd140244",
+            "parentId": "wrk_737fae1b7a10450e8465327f9916d3e9",
+            "modified": 1694572699153,
+            "created": 1694572699153,
+            "fileName": "HNGx_Stage_II",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        },
+        {
+            "_id": "env_4b8588ac657b49a1b6338283e04902d0",
+            "parentId": "env_3c0b4c16957cef9110fbabec7ee0edb3d101461d",
+            "modified": 1694574749095,
+            "created": 1694572854292,
+            "name": "production",
+            "data": {
+                "URL": "https://hngx-task-two-zjqf.onrender.com"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "URL"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1694572854292,
+            "_type": "environment"
+        }
+    ]
+}
