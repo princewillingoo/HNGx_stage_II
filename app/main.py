@@ -99,7 +99,3 @@ def delete_post(id: int, db: Session = Depends(get_db)):
     db.commit()
 
     return Response(status_code=204)
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
