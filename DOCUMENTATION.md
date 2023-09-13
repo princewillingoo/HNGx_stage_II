@@ -50,9 +50,9 @@ This documentation overviews the FastAPI CRUD API, including:
 
 #### Request
 
-```
+```bash
 curl -X 'POST' \
-  '<base url>/api/' \
+  'https://hngx-task-two-zjqf.onrender.com/api/' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{ "name": "Ihuoma Princewill" }'
@@ -60,7 +60,7 @@ curl -X 'POST' \
 
 #### Response
 
-```
+```json
 { "name": "Ihuoma Princewill", "id": 2 }
 ```
 
@@ -68,15 +68,15 @@ curl -X 'POST' \
 
 #### Request
 
-```
+```bash
 curl -X 'GET' \
-  'http://127.0.0.1:8000/api/2/' \
+  'https://hngx-task-two-zjqf.onrender.com/api/2/' \
   -H 'accept: application/json'
 ```
 
 #### Response
 
-```
+```json
 { "name": "Ihuoma Princewill", "id": 2 }
 ```
 
@@ -84,9 +84,9 @@ curl -X 'GET' \
 
 #### Request
 
-```
+```bash
 curl -X 'PUT' \
-  'http://127.0.0.1:8000/api/2/' \
+  'https://hngx-task-two-zjqf.onrender.com/api/2/' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{ "name": "Lawrence Gideon" }'
@@ -94,7 +94,7 @@ curl -X 'PUT' \
 
 #### Response
 
-```
+```json
 { "name": "Lawrence Gideon", "id": 2 }
 ```
 
@@ -102,15 +102,15 @@ curl -X 'PUT' \
 
 #### Request
 
-```
+```bash
 curl -X 'DELETE' \
-  'http://127.0.0.1:8000/api/2/' \
+  'https://hngx-task-two-zjqf.onrender.com/api/2/' \
   -H 'accept: */*'
 ```
 
 #### Response
 
-```
+```shell
 Status Code -> 204 
 ```
 
