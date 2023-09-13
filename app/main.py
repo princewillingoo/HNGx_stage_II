@@ -28,6 +28,10 @@ def get_db():
     finally:
         db.close()
 
+# check
+@app.get("/", status_code=200)
+def welcome():
+    return "Hello, World"
 
 # create
 @app.post("/api/", response_model=schemas.Person, status_code=201)
